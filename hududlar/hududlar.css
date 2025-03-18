@@ -1,0 +1,115 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   font-family: "Open Sans", sans-serif;
+ }
+ 
+ :root {
+   --primaryColor: #77b307;
+ }
+ /* linear-gradient(to left,rgba(246, 209, 49, 0.38) 0%,rgba(119, 179, 7, 0.38) 100%) #77b307 */
+ body {
+   background-color: rgba(248, 231, 28, 0.58);
+ }
+ 
+ .container {
+   width: 76%;
+   margin: 0 auto;
+ }
+ 
+ .nav-container {
+   width: 100%;
+   background: linear-gradient(
+       to right,
+       rgba(246, 209, 49, 0.38) 0%,
+       rgba(119, 179, 7, 0.38) 100%
+     )
+     #77b307;
+ }
+ 
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .navbar > a {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   font-size: 40px;
+   color: var(--primaryColor);
+   background: white;
+   border: 3px solid #e88c30;
+   border-radius: 55px;
+   padding: 5px 15px;
+   margin: 10px 0;
+ }
+ 
+ .list {
+   display: flex;
+   gap: 50px;
+ }
+ 
+ .nav-link {
+   color: white;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+
+ .hudud-xaritalar{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+ }
+
+ .hududlar > select{
+  margin-top: 30px;
+  width: 600px;
+  padding: 10px 20px;
+  background: rgba(248, 231, 28, 0.2);
+  color: #77b307;
+  font-size: 30px;
+  text-align: center;
+  outline: 0;
+ }
+
+ .xaritalar{
+
+  margin-top: 30px;
+
+ }
+
+ .tumanlar{
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 600px;
+  justify-content: center;
+ }
+
+ .tumanlar-btn{
+  padding: 5px 10px;
+  border-radius: 55px;
+  border: 2px solid #77b307;
+  color: #77b307;
+  font-size: 24px;
+ }
+
+
+
+
+
+
+
+
+footer{
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+}
