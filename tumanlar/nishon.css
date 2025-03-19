@@ -1,0 +1,124 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   font-family: "Open Sans", sans-serif;
+ }
+ 
+ :root {
+   --transition:all 0.4s ease-in-out;
+   --color-primary:linear-gradient(
+      to right,
+      rgba(246, 209, 49, 0.38) 0%,
+      rgba(119, 179, 7, 0.38) 100%
+    )
+    #77b307;
+ }
+ /* linear-gradient(to left,rgba(246, 209, 49, 0.38) 0%,rgba(119, 179, 7, 0.38) 100%) #77b307 */
+ body {
+   background-color: rgba(248, 231, 28, 0.58);
+ }
+ 
+ .container {
+   width: 76%;
+   margin: 0 auto;
+ }
+ 
+ .nav-container {
+   width: 100%;
+   background: linear-gradient(
+       to right,
+       rgba(246, 209, 49, 0.38) 0%,
+       rgba(119, 179, 7, 0.38) 100%
+     )
+     #77b307;
+ }
+ 
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .navbar > a {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   font-size: 40px;
+   background: white;
+   border: 3px solid #e88c30;
+   border-radius: 55px;
+   padding: 5px 15px;
+   margin: 10px 0;
+ }
+ 
+ .list {
+   display: flex;
+   gap: 50px;
+ }
+ 
+ .nav-link {
+   color: white;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+
+
+ .hero {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 100px;
+   
+ }
+ 
+ .hero-content {
+   width: 650px;
+ }
+ 
+ .hero-title {
+   font-size: 86px;
+   color: #e88c30;
+ }
+ 
+ .hero-text {
+   font-size: 30px;
+   margin: 20px 0;
+   padding-bottom: 20px;
+   color: black;
+ }
+ 
+ .hero-btn {
+   width: 200px;
+   font-size: 30px;
+   color: #e88c30;
+   border: 2px solid #e88c30;
+   padding: 15px 30px;
+   border-radius: 55px;
+   transition: all 0.4s ease-in-out;
+ }
+ 
+ .hero-btn:hover {
+   border-color: white;
+   color: white;
+   background: #77b307;
+ }
+ 
+ .hero-img {
+   width: 600px;
+   height: 620px;
+   object-fit: contain;
+   object-position: center;
+   border-radius: 35px;
+ }
+ 
+
+
+ footer{
+   width: 100%;
+   /* position: fixed; */
+   /* bottom: 0; */
+}

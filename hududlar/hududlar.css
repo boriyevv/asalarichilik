@@ -67,6 +67,10 @@
   /* align-items: center; */
  }
 
+ .hududlar{
+  position: relative;
+ }
+
  .hududlar > select{
   margin-top: 30px;
   width: 600px;
@@ -79,9 +83,7 @@
  }
 
  .xaritalar{
-
   margin-top: 30px;
-
  }
 
  .tumanlar{
@@ -102,11 +104,18 @@
  }
 
 
-
-
-
-
-
+.tumanni-korish{
+  width: 600px;
+  text-align: center;  
+  padding: 12px 20px;
+  border-radius: 55px;
+  border: 2px solid white;
+  color: white;
+  background: #77b307;
+  font-size: 24px;
+  position: absolute;
+  bottom: 0;
+ }
 
 footer{
    width: 100%;

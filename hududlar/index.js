@@ -6,6 +6,9 @@ let xaritalar = document.querySelector('.xaritalar')
 
 
 select.addEventListener('change', ()=>{
+
+    
+
     console.log(select.value)
     if(select.value === 'qashqadaryo'){
         render(data.Qashqadaryo)
@@ -50,7 +53,10 @@ function render(data){
         btn.setAttribute('class', 'tumanlar-btn')
         btn.setAttribute('data-link', data[i].map)
         
+
         btn.textContent = data[i].name
+
+        
 
         btn.addEventListener('click', ()=>{
             renderMaps(btn.dataset.link)
